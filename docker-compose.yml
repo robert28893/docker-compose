@@ -5,7 +5,7 @@ services:
     image: mysql:8.0.33
     environment:
       MYSQL_ROOT_PASSWORD: Admin@123
-      MYSQL_DATABASE: auth
+#      MYSQL_DATABASE: auth
       MYSQL_USER: user
       MYSQL_PASSWORD: password
     ports:
