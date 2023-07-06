@@ -1,12 +1,12 @@
 # Start database
 
 ```bash
-docker-compose up -d
+docker compose up -d
 ```
 
 # Stop database
 ```bash
-docker-compose stop
+docker compose stop
 ```
 
 # Creating database dumps
