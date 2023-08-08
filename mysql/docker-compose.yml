@@ -12,7 +12,7 @@ services:
     - '3306:3306'
     volumes:
     - mysql-db:/var/lib/mysql
-    restart: always
+    restart: on-failure
 
 volumes:
   mysql-db:
